@@ -14,8 +14,7 @@ Based on this [Paper][id]. As input for the fit method a two dimensional numpy a
     gng.fit(data)
 
 
-
-
 [id]: https://proceedings.neurips.cc/paper/1994/file/d56b9fc4b0f1be8871f5e1c40c0067e7-Paper.pdf  "Original Paper"
 
 Author: cmb87
+License: MIT
