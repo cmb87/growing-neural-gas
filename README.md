@@ -1,4 +1,4 @@
-# Growing Neural Gas (GNG)
+# Growing Neural Gas (GNG) and RRT
 Based on this [Paper][id]. As input for the fit method a two dimensional numpy array is required. The dimension can be arbitrary. Upon completation, the neurons coordinates, the activity flag (whether the neuron is used or not) and the adjacency matrix is return. Only dependencies are Numpy and Matplotlib ( for plotting)
 
 
@@ -15,6 +15,11 @@ Based on this [Paper][id]. As input for the fit method a two dimensional numpy a
 
 
 [id]: https://proceedings.neurips.cc/paper/1994/file/d56b9fc4b0f1be8871f5e1c40c0067e7-Paper.pdf  "Original Paper"
+
+
+
+
+![RRT Gif](./rrt.gif)
 
 Author: cmb87
 License: MIT
