@@ -227,7 +227,7 @@ if __name__ == "__main__":
   #  data = (data-xmin)/(xmax-xmin)
    # data = data[:,:2]
 
-    gng = PyGNG(maxNeurons=30, ageMax=25, iterMax=20000)
+    gng = PyGNG(maxNeurons=60, ageMax=25, iterMax=20000)
     gng.fit(data)
 
 
