@@ -219,15 +219,15 @@ if __name__ == "__main__":
     )
 
 
-   # data = np.random.normal(size=(500,2))
+    data = np.random.normal(size=(500,2))
 
-    data = np.loadtxt("GSE156455_201106_early.200pcs.csv", delimiter=';', usecols=list(range(1,20)), skiprows=1)
-    xmin = data.min(0)
-    xmax = data.max(0)
-    data = (data-xmin)/(xmax-xmin)
-    data = data[:,:2]
+  #  data = np.loadtxt("GSE156455_201106_early.200pcs.csv", delimiter=';', usecols=list(range(1,20)), skiprows=1)
+  #  xmin = data.min(0)
+  #  xmax = data.max(0)
+  #  data = (data-xmin)/(xmax-xmin)
+   # data = data[:,:2]
 
-    gng = PyGNG(maxNeurons=100, ageMax=25, iterMax=50000)
+    gng = PyGNG(maxNeurons=30, ageMax=25, iterMax=20000)
     gng.fit(data)
 
 
